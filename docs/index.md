@@ -11,10 +11,10 @@ Ce cours couvrira différents types d'applications, soit:
 
 ## Outils utilisés
 
-- Java :material-language-java:
-- Spring :simple-spring:
-- MySQL :simple-mysql:
-- IntelliJ IDEa Ultimate :simple-intellijidea:
-- Tomcat :simple-apachetomcat:
+- Java
+- Cadriciel Spring
+- MySQL/SQLite
+- IntelliJ IDEa Ultimate
+- Tomcat
 - Pages JSP
-- Serveur Ubuntu :simple-ubuntu:
+- Serveur Ubuntu

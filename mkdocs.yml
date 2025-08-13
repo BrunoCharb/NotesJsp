@@ -3,8 +3,8 @@ site_url: https://sitename.example
 theme:
   name: material
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: Open Sans
+    code: Fira Code
   icon: 
     logo: fontawesome/brands/java
   features:
@@ -16,13 +16,13 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: green
-      accent: deep purple
+      accent: deep orange
   # Light moide
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light Mode
-      primary: blue
+      primary: green
       accent: deep orange
 
 markdown_extensions:
@@ -45,9 +45,13 @@ markdown_extensions:
       combine_header_slug: true
   - admonition
   - pymdownx.details
+  - toc:
+      title: Table des matières
 
 nav:
   - Accueil: index.md  
   - Annexes:
-    - Annexe A: 
-      - Dépendances Maven utiles: maven-dependences.md
+    - Annexe A - Dépendances Maven utiles: maven-dependences.md      
+
+extra_css:
+  - extra.css
