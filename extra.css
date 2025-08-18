@@ -1,0 +1,29 @@
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 1em;
+}
+
+.md-typeset table th {
+  font-size: 0.9rem;
+}
+
+.md-typeset table tr {
+  font-size: 0.9rem;
+}
+
+.md-typeset table:not([class]) {
+  display: table; 
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* Center all tables */
+.md-typeset__table {
+  display: flex;
+  justify-content: center;
+}
+
+.md-typeset__table table {
+  width: auto;
+}
