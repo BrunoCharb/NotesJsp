@@ -47,10 +47,13 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       title: Table des matières
+  - tables
 
 nav:
   - Accueil: index.md
-  - Architecture: tomcat.md
+  - Servlets Java:
+    - Architecture de Tomcat et des servlets: tomcat.md
+    - Configuration d'un servlet: config-servlet.md
   - Annexes:
     - Annexe A - Dépendances Maven utiles: maven-dependences.md      
 
